@@ -1,0 +1,33 @@
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header nav ul li .bbc span {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.asil {
+    position: relative;
+}
+
+.fa-search {
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+
+
