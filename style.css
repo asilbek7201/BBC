@@ -29,5 +29,28 @@ header nav ul li .bbc span {
     top: 2px;
 }
 
+.hackerali {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://ichef.bbc.co.uk/wwhp/800/cpsprodpb/32F2/production/_117524031_1371a493-7f96-49fe-88f5-8f61f5e6fe84.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+    width: 50%;
+    height: 50vh;
+    /* background:linear-gradient(white, black); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
+}
+
+.hackerali .p1 {
+    color: white;
+    font-size: 30px;
+    
+}
+
+.hackerali p, a {
+    color: darkgray;
+}
 
