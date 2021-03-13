@@ -35,7 +35,7 @@ header nav ul li .bbc span {
     background-repeat: no-repeat;
     background-size: cover; 
     background-position:center;
-    width: 50%;
+    width: 50%; 
     height: 50vh;
     /* background:linear-gradient(white, black); */
     display: flex;
@@ -54,3 +54,99 @@ header nav ul li .bbc span {
     color: darkgray;
 }
 
+.bbc1 div,
+.dusi2 div {
+    height: 24vh;
+}
+
+.bbc1, .dusi2 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    width: 20%;
+}
+
+.bbc2  {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://ichef.bbc.co.uk/wwhp/400/cpsprodpb/7455/production/_117518792_gettyimages-1231326098.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+
+
+}
+
+p {
+    font-size: 28px;
+    color: white;
+}
+
+
+.bbc3 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://ichef.bbc.co.uk/wwhp/400/cpsprodpb/0A8C/production/_113600720_gettyimages-1208429229.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 24%; */
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.a1 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://ichef.bbc.co.uk/wwhp/400/cpsprodpb/14084/production/_117525028_coupang-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 24%; */
+    /* height: 40vh; */
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+
+.a2 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(https://ichef.bbc.co.uk/wwhp/400/ibroadcast/images/live/p0/99/7v/p0997v4h.jpg);
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 24%; */
+    /* height: 40vh; */
+    flex-direction: column;
+    justify-content: flex-end;
+ 
+
+}
+/* 
+.bbc1 {
+    display: flex;
+    height: 50vh;
+    
+
+}
+
+.dusi2 {
+    display: flex;
+    height: 50vh;
+} */
+
+.dusi {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+                
